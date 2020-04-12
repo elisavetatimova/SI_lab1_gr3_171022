@@ -2,6 +2,7 @@ class Item {
 	int id;
 	String name;
 	double price;
+	char tipDanok;
 
 	//TODO add variable.
 
