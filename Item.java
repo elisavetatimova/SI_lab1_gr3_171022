@@ -1,53 +1,53 @@
 class Item {
-	int id;
-	String name;
-	double price;
-	char tipDanok;
-	//TODO add variable.
+    int id;
+    String name;
+    double price;
+    char tipDanok;
+    //TODO add variable.
 
-	//TODO constructor
+    //TODO constructor
 
-	public Item(int id) {
-		this.id = id;
-	}
+    public Item(int id) {
+        this.id = id;
+    }
 
-	//TODO setters and getters
+    //TODO setters and getters
 
-	public int getId() {
-		return id;
-	}
+    public int getId() {
+        return id;
+    }
 
-	public void setId(int id) {
-		this.id = id;
-	}
+    public void setId(int id) {
+        this.id = id;
+    }
 
-	public String getName() {
-		return name;
-	}
+    public String getName() {
+        return name;
+    }
 
-	public void setName(String name) {
-		this.name = name;
-	}
+    public void setName(String name) {
+        this.name = name;
+    }
 
-	public double getPrice() {
-		return price;
-	}
+    public double getPrice() {
+        return price;
+    }
 
-	public void setPrice(double price) {
-		this.price = price;
-	}
+    public void setPrice(double price) {
+        this.price = price;
+    }
 
-	public char getTipDanok() {
-		return tipDanok;
-	}
+    public char getTipDanok() {
+        return tipDanok;
+    }
 
-	public void setTipDanok(char tipDanok) {
-		this.tipDanok = tipDanok;
-	}
+    public void setTipDanok(char tipDanok) {
+        this.tipDanok = tipDanok;
+    }
 
 
-	//TODO
-	double getTaxReturn(int price){
-		return (double) price * (15/100);
-	}
+    //TODO
+    double getTaxReturn() {
+        return price * 0.15;
+    }
 }
